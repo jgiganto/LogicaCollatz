@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="8e08513c-9881-4ba7-b03c-f948f42fea8f" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:55222/Collatz.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Collatz.xsd" MetadataType="Schema" ID="29b28cfc-41ac-4310-9c95-2e4be2757af2" SourceId="1" SourceUrl="http://localhost:55222/Collatz.svc?xsd=xsd2" />
+    <MetadataFile FileName="ServicioCollatz.wsdl" MetadataType="Wsdl" ID="1adcf182-2d63-422d-9b63-db2c1d89d02b" SourceId="1" SourceUrl="http://localhost:55222/Collatz.svc?wsdl" />
+    <MetadataFile FileName="Collatz1.xsd" MetadataType="Schema" ID="507277ed-f2d3-4b59-a9c4-be476b1f5308" SourceId="1" SourceUrl="http://localhost:55222/Collatz.svc?xsd=xsd1" />
+    <MetadataFile FileName="Collatz.disco" MetadataType="Disco" ID="d1de14e2-5f8c-4f92-805f-6b0dcf5dc03f" SourceId="1" SourceUrl="http://localhost:55222/Collatz.svc?disco" />
+    <MetadataFile FileName="Collatz2.xsd" MetadataType="Schema" ID="1d0daf53-dd1e-4e05-b3ef-e8ffefd84e79" SourceId="1" SourceUrl="http://localhost:55222/Collatz.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

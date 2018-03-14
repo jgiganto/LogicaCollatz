@@ -8,6 +8,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostCollatz", "HostCollatz\HostCollatz.csproj", "{C90BF344-15D9-4C85-9DC8-067C3D9E71AE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClienteCollatz", "ClienteCollatz\ClienteCollatz.csproj", "{FF30FC73-6754-455E-B39C-51E7179AC16B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C90BF344-15D9-4C85-9DC8-067C3D9E71AE} = {C90BF344-15D9-4C85-9DC8-067C3D9E71AE}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
