@@ -21,5 +21,18 @@ namespace ClienteCollatz
         {
 
         }
+
+        private void btncollatz_Click(object sender, EventArgs e)
+        {
+            int numero = int.Parse(this.txtnumero.Text);
+            ServiceReference1.IcontratoCollatzClient cliente =
+                new ServiceReference1.IcontratoCollatzClient();
+            int[] collatz = cliente.GetConjeturaCollatz(numero);
+            this.lstnumeros.Items.Clear();
+            foreach(int n in collatz)
+            {
+                this.lstnumeros.Items.Add(n);
+            }
+        }
     }
 }

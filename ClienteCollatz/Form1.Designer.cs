@@ -68,6 +68,7 @@
             this.btncollatz.TabIndex = 3;
             this.btncollatz.Text = "LLamar a Collatz";
             this.btncollatz.UseVisualStyleBackColor = true;
+            this.btncollatz.Click += new System.EventHandler(this.btncollatz_Click);
             // 
             // Form1
             // 
